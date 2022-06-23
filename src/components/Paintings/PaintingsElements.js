@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const PaintingsContainer = styled.div`
-  height: 800px;
+  height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,11 +9,13 @@ export const PaintingsContainer = styled.div`
   background: #010606;
 
   @media screen and (max-width: 768px) {
-    height: 1100px;
+    height: 1400px;
+    padding-top 150px;
+    padding-bottom: 150px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: 1700px;
   }
 `;
 
