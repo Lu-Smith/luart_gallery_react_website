@@ -1,6 +1,6 @@
 import Pic1 from "../../images/pic1.svg";
 import Pic2 from "../../images/pic2.svg";
-import Pic3 from "../../images/pic3.svg";
+import Pic3 from "../../images/pic4.svg";
 
 export const homeObjOne = {
   id: `about`,
@@ -37,13 +37,13 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  id: `gallery`,
+  id: `contact`,
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
   topLine: `Art Gallery`,
   headline: `Oil paintings`,
-  description: `There is a perfect art piece for a each person. Find yourself in oil painting. Discover your inner self, unleash the power of art.`,
+  description: `There is a perfect art piece for a each person. We will help you find it. Discover your inner self, unleash the power of art.`,
   buttonLabel: `Art for sale`,
   imgStart: true,
   img: Pic3,
