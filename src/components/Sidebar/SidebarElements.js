@@ -7,14 +7,16 @@ export const SidebarContainer = styled.aside`
   position: fixed;
   z-index: 999;
   width: 100%;
+  height: 100%;
+  padding-bottom: 100px;
   background: #0d0d0d;
-  display: gird;
+  display: grid;
   align-items: center;
-  top: 0;
   left: 0;
+  top: 0;
   transition: 0.3s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? `100%` : `0`)};
-  top: ${({ isOpen }) => (isOpen ? `0` : `-100`)};
+  top: ${({ isOpen }) => (isOpen ? `0` : `-100%`)};
 `;
 
 export const CloseIcon = styled(FaTimes)`
@@ -39,11 +41,11 @@ export const SidebarWrapper = styled.div`
 export const SidebarMenu = styled.ul`
   display: grid;
   grid-template-columns: lfr;
-  grid-template-rows: repeat(6, 80px);
+  grid-template-rows: repeat(5, 80px);
   text-align: center;
 
   @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(6, 60px);
+    grid-template-rows: repeat(5, 60px);
   }
 `;
 export const SidebarLink = styled(LinkS)`
