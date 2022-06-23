@@ -1,3 +1,4 @@
+import Pic1 from "../../images/pic1.svg";
 export const homeObjOne = {
   id: `about`,
   lightBg: false,
@@ -8,7 +9,7 @@ export const homeObjOne = {
   description: `To succesd in life is to know the value of your soul enchanted in canvas. Buy original painting to add the final touch to your home.`,
   buttonLabel: `Get in touch`,
   imgStart: true,
-  img: require(`../../images/gallery2.jpg`),
+  img: Pic1,
   alt: "art",
   dark: true,
   primary: true,
