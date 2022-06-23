@@ -56,18 +56,23 @@ export const HomeContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (max-width: 786px) {
+    top: 100px;
+  }
 `;
 export const HomeH1 = styled.h1`
-  color: #ff;
+  color: #fff;
+  opacity: 60%;
   font-size: 48px;
   text-align: center;
 
-  @media screen (max-width: 786px) {
-    font-size: 40px;
+  @media screen and (max-width: 786px) {
+    font-size: 36px;
   }
 
-  @media screen (max-width: 480px) {
-    font-size: 32px;
+  @media screen and (max-width: 480px) {
+    font-size: 28px;
   }
 `;
 
@@ -77,13 +82,15 @@ export const HomeP = styled.p`
   font-size: 24px;
   text-align: center;
   max-width: 600px;
+  font-family: "Poiret One", cursive;
+  font-style: italic;
 
-  @media screen (max-width: 786px) {
-    font-size: 24px;
+  @media screen and (max-width: 786px) {
+    font-size: 20px;
   }
 
-  @media screen (max-width: 480px) {
-    font-size: 18px;
+  @media screen and (max-width: 480px) {
+    font-size: 16px;
   }
 `;
 

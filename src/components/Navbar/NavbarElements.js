@@ -30,13 +30,14 @@ max-width: 1100px;
 
 export const NavLogo = styled(LinkR)`
   display: flex;
-  color: #fff;
+  color: #e7eaf6;
   cursor: pointer;
   font-size: 1.5rem;
   align-items: center;
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
+  font-family: "Potta One", cursive;
 `;
 
 export const MobileIcon = styled.div`
@@ -72,18 +73,17 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-color: #fff;
-display: flex;
-align-item: center;
-text-decoration: none;
-padding: 0 1 rem;
-height: 100%;
-cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-item: center;
+  text-decoration: none;
+  padding: 0 1 rem;
+  height: 100%;
+  cursor: pointer;
 
-&.active {
-    border-bottom: 3px solid #01bf71:
-    
-}
+  &.active {
+    border-bottom: 3px solid #38598b;
+  }
 `;
 
 export const NavBtn = styled.nav`
@@ -97,7 +97,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
   border-radius: 50px;
-  background: #01bf71;
+  background: #38598b;
   white-space: nowrap;
   padding: 10px 22px;
   color: #010606;
