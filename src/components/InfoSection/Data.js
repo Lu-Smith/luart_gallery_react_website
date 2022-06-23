@@ -5,7 +5,7 @@ export const homeObjOne = {
   lightTextDesc: true,
   topLine: `Invest in Art`,
   headline: `Art Art Art`,
-  description: `To succesd in life is to know the value of your soul enchanted in canvas.`,
+  description: `To succesd in life is to know the value of your soul enchanted in canvas. Buy original painting to add the final touch to your home.`,
   buttonLabel: `Get in touch`,
   imgStart: true,
   img: require(`../../images/gallery2.jpg`),
