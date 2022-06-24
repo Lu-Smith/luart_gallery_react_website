@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const PaintingsContainer = styled.div`
-  height: 900px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,21 +9,21 @@ export const PaintingsContainer = styled.div`
   background: #010606;
 
   @media screen and (max-width: 768px) {
-    height: 1400px;
+    height: 1700px;
     padding-top 150px;
     padding-bottom: 150px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 1700px;
+    height: 1900px;
   }
 `;
 
 export const PaintingsWrapper = styled.div`
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 18px;
   padding: 0 60px;

@@ -2,6 +2,7 @@ import React from "react";
 import Icon1 from "../../images/1.jpg";
 import Icon2 from "../../images/2.jpg";
 import Icon3 from "../../images/3.jpg";
+import Icon4 from "../../images/4.jpg";
 
 import {
   PaintingsContainer,
@@ -31,6 +32,11 @@ const Paintings = () => {
         <PaintingsCard>
           <PaintingsIcon src={Icon3} />
           <PaintingsH2>Sound of Life</PaintingsH2>
+          <PaintingsP>Oil painting on canvas</PaintingsP>
+        </PaintingsCard>
+        <PaintingsCard>
+          <PaintingsIcon src={Icon4} />
+          <PaintingsH2>Animals</PaintingsH2>
           <PaintingsP>Oil painting on canvas</PaintingsP>
         </PaintingsCard>
       </PaintingsWrapper>
