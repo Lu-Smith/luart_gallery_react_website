@@ -38,8 +38,8 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
   id: `contact`,
-  lightBg: false,
-  lightText: true,
+  lightBg: true,
+  lightText: false,
   lightTextDesc: true,
   topLine: `Art Gallery`,
   headline: `Oil paintings`,
@@ -48,7 +48,7 @@ export const homeObjThree = {
   imgStart: true,
   img: Pic3,
   alt: "art",
-  dark: true,
-  primary: true,
-  darkText: false,
+  dark: false,
+  primary: false,
+  darkText: true,
 };
