@@ -61,6 +61,8 @@ export const PaintingsIcon = styled.img`
   height: 200px;
   width: 150px;
   margin-bottom: 10px;
+  border: 5px solid black;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 `;
 
 export const PaintingsH1 = styled.h1`

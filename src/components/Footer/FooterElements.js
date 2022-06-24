@@ -113,12 +113,12 @@ export const SocialIconLink = styled.a`
 
 export const Portfolio = styled.a`
   color: #a2a8d3;
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: none;
 `;
 
 export const GitHub = styled.a`
   color: #a2a8d3;
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: none;
 `;
