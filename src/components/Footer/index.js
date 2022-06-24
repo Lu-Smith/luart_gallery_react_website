@@ -1,4 +1,5 @@
 import React from "react";
+import { animateScroll as scroll } from "react-scroll";
 import {
   FaInstagram,
   FaLinkedin,
@@ -25,6 +26,10 @@ import {
 } from "./FooterElements";
 
 const Footer = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <FooterContainer>
       <FooterWrap>
@@ -66,7 +71,9 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">LuArtGallery</SocialLogo>
+            <SocialLogo to="/" onClick={toggleHome}>
+              LuArtGallery
+            </SocialLogo>
             <WebsiteRights>
               LuArt Gallery © {new Date().getFullYear()}, coded by{" "}
               <Portfolio
