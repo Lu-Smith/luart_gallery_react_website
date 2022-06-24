@@ -34,6 +34,11 @@ const HomeSection = () => {
             onMouseLeave={onHover}
             primary="true"
             dark="true"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
           >
             Get in touch {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
