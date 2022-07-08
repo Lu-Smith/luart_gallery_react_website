@@ -10,7 +10,7 @@ export const PaintingsContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     height: 1700px;
-    padding-top 150px;
+    padding-top: 150px;
     padding-bottom: 150px;
   }
 

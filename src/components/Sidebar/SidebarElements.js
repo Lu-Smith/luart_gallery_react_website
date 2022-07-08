@@ -29,7 +29,7 @@ export const Icon = styled.div`
   right: 1.5rem;
   background: transparent;
   font-size: 2rem;
-  currsor: pointer;
+  cursor: pointer;
   outline: none;
 `;
 

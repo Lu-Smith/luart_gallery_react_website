@@ -86,11 +86,11 @@ export const SocialMediaWrap = styled.div`
 export const SocialLogo = styled(Link)`
   color: #fff;
   justify-self: start;
-  curosr: pointer;
+  cursor: pointer;
   text-decoration: none;
   font-size: 1.5rem;
   display: flex;
-  align-itmes: center;
+  align-items: center;
   margin-bottom: 16px;
   font-weight: bold;
 `;
